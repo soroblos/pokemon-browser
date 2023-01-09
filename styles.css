@@ -1,0 +1,108 @@
+/* * {
+    background-color: aliceblue;
+} */
+body {
+    background-color: blue;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    padding-left: 100px;
+    font-size: 60px;
+    font-family: 'Akronim';
+}
+
+#navigation {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: -80px;
+}
+
+.navbar {
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    background-color: rgb(252, 250, 250);
+    position: relative;
+}
+
+.navbar.searchbutton {
+    position: absolute;
+    left: 50px;
+    top: 50%;
+    transform: translate(-50%, -90%);
+}
+
+.navbar.searchbutton.search {
+    font-size: 10px;
+    cursor: pointer;
+    color: gray;
+}
+
+/* .elementlist {
+    margin: 0px 0px 30px;
+    text-align: left;
+    margin-top: -15px;
+    position: absolute;
+} */
+
+
+
+.slideshow {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.imgcontainer {
+    background-color: green;
+}
+
+
+.showstopper {
+    padding: 0;
+    margin: 0;
+}
+
+.showstopper img {
+    position: relative;
+    opacity: 80%;
+    /* height: 400px;
+    width: 1200px; */
+    max-height: 100%;
+    max-width: 100%;
+    /* object-fit: cover; */
+}
+
+.headtext {
+    font-size: 30px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.secondtext {
+    font-size: 30px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.element {
+    color: white;
+    margin: 0px 30px 30px 0px;
+    text-decoration: none;
+}
+
+#imagesection {
+    text-align: center;
+}
+
+#imagesection img {
+    padding: 50px 10px;
+    width: 300px;
+}
