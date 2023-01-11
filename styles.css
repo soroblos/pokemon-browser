@@ -1,53 +1,31 @@
-/* * {
-    background-color: aliceblue;
-} */
 body {
-    background-color: blue;
+    background: linear-gradient(black, grey);
 }
 
 h1 {
-    color: white;
-    text-align: center;
+    color: orange;
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
     padding-left: 100px;
     font-size: 60px;
     font-family: 'Akronim';
-}
-
-#navigation {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    margin-top: -80px;
-}
-
-.navbar {
-    width: 35px;
-    height: 35px;
-    border-radius: 50px;
-    background-color: rgb(252, 250, 250);
     position: relative;
 }
 
-.navbar.searchbutton {
-    position: absolute;
-    left: 50px;
-    top: 50%;
-    transform: translate(-50%, -90%);
-}
-
-.navbar.searchbutton.search {
-    font-size: 10px;
-    cursor: pointer;
-    color: gray;
-}
-
-/* .elementlist {
+.elementlist {
     margin: 0px 0px 30px;
     text-align: left;
-    margin-top: -15px;
-    position: absolute;
-} */
+    margin-top: -75px;
+    position: relative;
+}
 
+.element {
+    color: wheat;
+    margin: 0px 30px 30px 0px;
+    text-decoration: none;
+    font-size: 20px;
+}
 
 
 .slideshow {
@@ -58,51 +36,139 @@ h1 {
 
 .imgcontainer {
     background-color: green;
-}
-
-
-.showstopper {
-    padding: 0;
-    margin: 0;
-}
-
-.showstopper img {
+    display: flex;
+    width: 80%;
+    height: 400px;
+    margin-top: 75px;
+    margin-left: 10%;
     position: relative;
-    opacity: 80%;
-    /* height: 400px;
-    width: 1200px; */
-    max-height: 100%;
+}
+
+/* #imgset {
+    transition: transform 250ms ease-in;
+} */
+
+#imgset img {
+    position: absolute;
+    /* opacity: 70%; */
+    float: none;
+    width: 100%;
+    height: 100%;
     max-width: 100%;
-    /* object-fit: cover; */
+    object-fit: fill;
+    transition: transform 700ms ease-in;
+}
+
+.arrowbuttonleft {
+    position: absolute;
+    height: 100%;
+    left: 8%;
+    background-color: orange;
+    cursor: pointer;
+}
+
+.arrowbuttonleft img {
+    width: 12px;
+}
+
+.arrowbuttonright {
+    position: absolute;
+    top: 0%;
+    height: 100%;
+    right: 8%;
+    background-color: orange;
+    cursor: pointer;
+}
+
+.arrowbuttonright img {
+    /* color: white; */
+    width: 12px;
+}
+
+.slidenav {
+    /* background: pink; */
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-left: 10%;
+    padding-top: 10px;
+}
+
+.slidespot {
+    border: 0;
+    border-radius: 100%;
+    width: 15px;
+    height: 15px;
+    margin: 0px 5px;
+    background: grey;
+
+}
+
+.slidespot.currentslide {
+    background: white;
+}
+
+.text {
+    position: relative;
+
+    background-color: red;
+    margin-left: 10%;
+    width: 80%;
+    height: 40%;
+    margin-top: -2%;
 }
 
 .headtext {
+    /* background-color: red; */
+    color: white;
     font-size: 30px;
-    position: absolute;
-    top: 40%;
+    text-align: center;
+    position: relative;
+    /* position: absolute; */
+    /* top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
 }
 
 .secondtext {
-    font-size: 30px;
-    position: absolute;
-    top: 45%;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    margin-top: -3%;
+    position: relative;
+    /* position: absolute; */
+    /* top: 40%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
 }
 
-.element {
-    color: white;
-    margin: 0px 30px 30px 0px;
-    text-decoration: none;
+
+h3 {
+
+    color: wheat;
+    margin-top: 150px;
+    font-size: 60px;
 }
 
 #imagesection {
     text-align: center;
 }
 
+
 #imagesection img {
     padding: 50px 10px;
     width: 300px;
+    cursor: pointer;
+}
+
+.socialmedia {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+p {
+    color: wheat;
+    text-align: center;
 }
