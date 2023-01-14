@@ -2,6 +2,13 @@ body {
     background: linear-gradient(black, grey);
 }
 
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+} */
+
 h1 {
     color: orange;
     display: flex;
@@ -61,10 +68,11 @@ h1 {
 
 .arrowbuttonleft {
     position: absolute;
-    height: 100%;
+    height: 100.5%;
     left: 8%;
     background-color: orange;
     cursor: pointer;
+    z-index: 1;
 }
 
 .arrowbuttonleft img {
@@ -74,10 +82,11 @@ h1 {
 .arrowbuttonright {
     position: absolute;
     top: 0%;
-    height: 100%;
+    height: 100.5%;
     right: 8%;
     background-color: orange;
     cursor: pointer;
+    z-index: 1;
 }
 
 .arrowbuttonright img {
@@ -113,9 +122,9 @@ h1 {
 
     background-color: red;
     margin-left: 10%;
-    width: 80%;
-    height: 40%;
-    margin-top: -2%;
+    width: 82%;
+    /* height: 150%; */
+    margin-top: -2.5%;
 }
 
 .headtext {
@@ -125,8 +134,8 @@ h1 {
     text-align: center;
     position: relative;
     /* position: absolute; */
-    /* top: 50%;
-    left: 50%;
+    /* top: 50%; */
+    /*left: 50%;
     transform: translate(-50%, -50%); */
 }
 
@@ -134,7 +143,7 @@ h1 {
     color: black;
     text-align: center;
     font-size: 20px;
-    margin-top: -3%;
+    margin-top: -1.5%;
     position: relative;
     /* position: absolute; */
     /* top: 40%;
@@ -142,12 +151,114 @@ h1 {
     transform: translate(-50%, -50%); */
 }
 
+.buttoncontainer {
+    display: flex;
+    justify-content: end;
+}
+
+.closebutton {
+    cursor: pointer;
+    border: white;
+    /* transform: translate(10px, -20px); */
+    /* padding: 0.5rem 0.7rem; */
+    background: white;
+    /* border-radius: 50%; */
+}
+
+.modalcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* gap: 0.4rem; */
+    /* width: 450px; */
+    padding: 1.3rem;
+    /* min-height: 250px; */
+    position: relative;
+    /* top: 20%; */
+    background-color: orange;
+    /* border: 1px solid #ddd; */
+    /* border-radius: 20px; */
+    transition: transform 10000ms ease;
+    z-index: 2;
+}
+
+.hiddenbody {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .3);
+    backdrop-filter: blur(5px);
+    z-index: 1;
+}
+
+.hidden {
+    display: none;
+}
+
+/*----------------------------------*/
+.buttoncontainer1 {
+    display: flex;
+    justify-content: end;
+}
+
+.closebutton1 {
+    cursor: pointer;
+    border: white;
+    /* transform: translate(10px, -20px); */
+    /* padding: 0.5rem 0.7rem; */
+    background: white;
+    /* border-radius: 50%; */
+}
+
+
+.modalcontainer1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* gap: 0.4rem; */
+    /* width: 450px; */
+    padding: 1.3rem;
+    /* min-height: 250px; */
+    position: relative;
+    /* top: 20%; */
+    background-color: orange;
+    /* border: 1px solid #ddd; */
+    /* border-radius: 20px; */
+    transition: transform 10000ms ease;
+    z-index: 2;
+}
+
+
+.hiddenbody1 {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .3);
+    backdrop-filter: blur(5px);
+    z-index: 1;
+}
+
+.hidden {
+    display: none;
+}
 
 h3 {
 
     color: wheat;
     margin-top: 150px;
     font-size: 60px;
+}
+
+p {
+    color: wheat;
 }
 
 #imagesection {

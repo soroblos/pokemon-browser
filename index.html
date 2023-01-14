@@ -49,9 +49,41 @@
     <div class="catalog">
         <h3>Popular Pokemons</h3>
         <div id="imagesection">
-            <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/658.png" alt="Greninja" />
-            <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/448.png" alt="Lucario" />
-            <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/778.png" alt="Mimikyu" />
+            <div class="modalcontainer hidden">
+                <div class="buttoncontainer">
+                    <button class="closebutton">x</button>
+                </div>
+                <h3>Stay in touch</h3>
+                <p>
+                    This is a dummy newsletter form so don't bother trying to test it. Not
+                    that I expect you to, anyways. :)
+                </p>
+            </div>
+            <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/658.png" alt="Greninja"
+                class="popularpokemon" />
+
+
+            <!-- <div id="modal1" onclick="this.style.display='none'">
+                    <div class="modalcontent">
+                        <span class="modal-button">&times;</span>
+                        <p>some random text</p>
+                    </div>
+                </div>
+            </div> -->
+            <div class="modalcontainer1 hidden">
+                <div class="buttoncontainer1">
+                    <button class="closebutton1">x</button>
+                </div>
+                <h3>Stay in touch</h3>
+                <p>
+                    This is a dummy newsletter form so don't bother trying to test it. Not
+                    that I expect you to, anyways. :)
+                </p>
+            </div>
+            <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/448.png" alt="Lucario"
+                class="popularpokemon1" />
+            <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/778.png" alt="Mimikyu"
+                class="popularpokemon2" />
             <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png" alt="Charizard" />
             <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/197.png" alt="Umbreon" />
             <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/700.png" alt="Sylveon" />
@@ -77,6 +109,8 @@
 
         <p>Created by: Sorochukwu Oputa</p>
     </footer>
+    <div class="hiddenbody hidden"></div>
+    <div class="hiddenbody1 hidden"></div>
 </body>
 <script src="app.js"></script>
 
