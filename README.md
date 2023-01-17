@@ -1,5 +1,5 @@
 ## Pokemon-Browser
-A browser for all things pokemon
+A browser showcasing a asortment of pokemon and giving information on them.
 
 # My Browser
 [Pokemon-Browser](https://pokemon-browser2231.netlify.app/)
@@ -10,7 +10,7 @@ A browser for all things pokemon
 https://pokeapi.co/
 
 
-# Wirefrane
+# Wireframe
 <img width="794" alt="Screen Shot 2022-12-20 at 10 35 52 PM" src="https://media.git.generalassemb.ly/user/46349/files/2967e064-1a99-4f64-872b-afdc1f24d8e0">
 
 This was the initial wireframe. Most of it stayed pretty true to the design, except the concept changed from Marvel to Pokemon.
@@ -19,13 +19,15 @@ This was the initial wireframe. Most of it stayed pretty true to the design, exc
 
 I used quite an array of resources from past class videos and classworks to helpful websites and videos.
 
-[this](https://www.youtube.com/watch?v=gBzsE0oieio
-https://pokemon2020.pokemon.com/en-us/)
+[This](https://www.youtube.com/watch?v=gBzsE0oieio)
 site helped me with majority of the functionality for the attempt at a carousel in my code
 
 https://pokemon2020.pokemon.com/en-us/
 
 I learned most of what i knew about how to create a modal from [here](https://www.freecodecamp.org/news/how-to-build-a-modal-with-javascript/) but it wasnt simply copy and paste because for all of the code used i tried my best to understand how each piece works. From mixing different parts of the code to see what would happen to trying to figure out how to do the rest on my own i have a pretty good understanding on most of the code used on my site.
+
+# Hardest Problems
+I would say the carousel was definetly the hardest part of my entire website but once i understood parent child relationships and how i can find them within the DOM it got significantly easier understanding the relationship between different object and how i can manipulate that and most of that knowledge came from [this-site](https://www.youtube.com/watch?v=vHuSz4fRM88&t=485s)
 
 
 
